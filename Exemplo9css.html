@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 9 - CSS Seletores</title>
+    <style>
+        h1{
+            font-size: 2rem;
+            font-weight: 500;
+            color: brown;
+        }
+        div {
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            border-left: solid green 5px;
+            border-radius: 0.5rem;
+            width: 500px;
+            height: 300px;
+            margin: 60px;
+            padding: 30px;
+        }
+        /* Seletor de ID, começa sempre com #*/
+        #paragrafo1 {
+            font-size: 25px;
+            text-align: center;
+            color: hotpink;
+            font-style: italic;
+            text-decoration: underline;
+        }
+        /* Seletor de classe, Começa sempre com um .*/
+        .div2 {
+            border: solid red 4px;
+            width: 300px;
+            height: 400px;
+            margin: 20px;
+            padding: 15px;
+            background-color: rgb(255, 140, 0,0.4);
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo 9 - CSS Seletores</h1>
+    <div>
+        <h2>Seletores CSS</h2>
+        <p>Os seletores CSS são padrões usados para selecionar e estilizar elementos HTML em uma página web. Eles permitem que você aplique estilos específicos a elementos individuais, grupos de elementos ou elementos que atendam a certas condições. Os seletores são uma parte fundamental do CSS (Cascading Style Sheets) e são usados para definir como os elementos devem ser exibidos.</p>
+    </div>
+    <div>
+        <h2>Exemplo de seletor de id</h2>
+
+        <P>Seletor de id é aquele que seleciona um único elemento com um atributo id específico.
+
+            Exemplo: #cabecalho { font-size: 24px; } aplica um tamanho de fonte de 24px ao elemento com o ID cabecalho</P>
+        <h3>Exemplo de aplicação de seletor de id</h3>
+        <p id="paragrafo1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, consectetur. Totam, quisquam. Hic, deleniti facilis eligendi doloribus totam quo? Eum, illum soluta esse tempore officiis ducimus ab perferendis molestiae quas?</p>
+    </div>
+    <div class="div2">
+        <h2>Seletor de classe</h2>
+        <p>
+            O seletor de classe no CSS é usado para selecionar e estilizar elementos HTML que possuem um atributo class específico. Ele é um dos seletores mais comuns e poderosos, pois permite aplicar estilos a múltiplos elementos que compartilham a mesma classe, independentemente do tipo de elemento.
+        </p>
+        <p>Nesta div aplicamos o seletor de classe</p>
+    </div>
+    <div>
+        <h2>Seletor de Tipo</h2>
+        <p>O seletor de tipo (também conhecido como seletor de tag) no CSS é usado para selecionar e estilizar todos os elementos de um determinado tipo (ou tag) HTML. Ele é um dos seletores mais básicos e diretos, pois aplica estilos a todos os elementos que correspondem ao nome da tag especificada.</p>
+    </div>
+</body>
+</html>
