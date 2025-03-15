@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 11 CSS - Box mODEL</title>
+    <style>
+        body{
+            font-size: 1.2em;
+            background-color: brown;
+        }
+        .div1{
+            background-color: chartreuse;
+            margin: 20px;
+            padding: 30px;
+            border: dotted red 8px;
+        }
+        .div2{
+            background-color: cyan;
+            margin: 15px 25px;
+            padding: 10px 20px 30px;
+            border: solid green 8px;
+            
+        }
+        .div3{
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            margin: 15px 20px;
+            padding-left: 20px;
+            padding-right: 15px;
+            padding-bottom: 10px;
+            padding-top: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 1rem;
+            border-left: double green 5px;
+            border-radius: 10px;
+            text-align: justify;
+
+        }
+        .div4{
+            background-color: aliceblue;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            margin-top: 15px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            padding: 10px 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 1rem;
+            border-right: double blue 5px;
+            border-radius: 10px;
+            text-align: justify;
+
+        }
+        .div5{
+            background-color: aliceblue;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            margin-top: 15px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            padding: 10px 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 1rem;
+            border-top: solid rgb(255, 0, 174) 5px;
+            border-radius: 10px;
+            text-align: justify;
+
+        }
+        .div6{
+            background-color: aliceblue;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            margin-top: 15px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            padding: 10px 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 1rem;
+            border-bottom: double yellow 5px;
+            border-radius: 80px;
+            text-align: justify;
+
+        }
+        .div7{
+            background-color: aliceblue;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            margin: 80px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 1rem;
+            border: double lightsalmon 5px;
+            border-radius: 80px;
+            text-align: justify;
+
+        }
+    </style>
+</head>
+<body >
+    <DIV class="div1">
+        <h1>Exemplo 11 CSS - Box Model</h1>
+        <div class="div2">
+            <h2>Box Model</h2>
+            <p>O modelo de baixa(Box model) DO CSS é um conceito fundamental que define como os elementos HML sâo representados como caixas retangulares no documento html. Essa representação permite o controle preciso dos layouts e espaçamentos.</p>
+            <h3>componentes do Box Model</h3>
+            <ol>
+                <li><strong>Conteúdo(Content)</strong>Area onde o conteúdo, como texto, imagens, paragrafos, etc serão exibidos. Suas dimensões são definidas pelas propriedades height e width</li>
+                <li><strong>Padding(Preenchimento)</strong>Espaço invisivel entre conteudo e a borda deste conteúdo</li>
+                <li><strong>Border(Borda)</strong>Linha que se circunda o conteúdo e o preenchumento Padding, podendo ter expressura, estilo e cores definidas</li>
+                <li><strong>Morgin(margin)</strong>Espaço transparente externo à borda utilizado para separar o elemento dos outros elementos do documento HTML</li>
+            </ol>
+        </div>
+        <div class="div3">
+            <h2>Exemplos de uso do Box Model</h2>
+            <p>A seguir são descritos vários exemplos de utilização do box model, acesse o código HTML e a folha de estilo desta página para entender mais</p>
+        </div>
+        <div class="div4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolorem eum voluptas ullam est! Vel, reprehenderit quidem. Quod enim quas placeat amet assumenda? Similique dicta sed quod! Eum, dolor soluta!</p>
+            
+        </div>
+        <div class="div5">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi neque non, enim aliquam deserunt obcaecati vel, tempore at ea fuga mollitia repellendus magnam facere odit amet officia nihil labore perspiciatis.</p>
+        </div>
+        <div class="div6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente architecto earum veniam ratione et sunt quod inventore reprehenderit quam amet assumenda molestias, totam quae, animi quis hic officiis aliquid! Deleniti.</p>
+        </div>
+        <div class="div7">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, accusamus! Exercitationem doloribus eos velit porro voluptatibus? Incidunt cupiditate iusto, aut deleniti, velit voluptas eius libero inventore autem qui fugit consequatur.</p>
+        </div>
+    </DIV>
+</body>
+</html>

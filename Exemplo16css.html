@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 16 - Css</title>
+    <style>
+        .navegation {
+            display: flex;
+            flex-flow: wrap;
+            justify-content: flex-end;
+            list-style: none;
+            margin: 0   ;
+            background-color: black;
+            font-size: 1.3rem;
+        }
+        .navegation a{
+            display: block;
+           text-decoration: none;
+            padding: 1em;
+            color: gold;
+        }
+        .navegation a:hover{
+            
+            padding: 1em;
+            color: black;
+            background-color: gold;
+            font-weight: bold;
+        }
+
+        @media all and (max-width: 800px) {
+            .navegation {
+                justify-content: space-around;
+            }
+        }
+        @media all and (max-width: 600px) {
+            .navegation {
+                flex-flow: column-reverse;
+                padding: 0;
+            }
+            .navegation a {
+                text-align: center;
+                padding: 10px;
+                border-top: 1px solid rgb(218, 165, 32,0.6);
+                border-bottom: 1px solid rgb(218, 165, 32,0.2);
+                
+            }
+            .navegation li:last-of-type a {
+                border-bottom: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul class="navegation">
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="Home">Sobre</a></li>
+        <li><a href="Home">Produto</a></li>
+        <li><a href="Home">Contato</a></li>
+    </ul>
+    <div>
+        <h1>Exemplo Responsivo com FlexBox - Order</h1>
+    </div>
+</body>
+</html>
